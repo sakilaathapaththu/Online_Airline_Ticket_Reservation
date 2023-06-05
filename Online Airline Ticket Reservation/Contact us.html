@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <ul class="nav">
+      <li class="logo" style="float: left;"><a href="index.php"><img src="images/logo.png" alt="Logo"></a></li>
+      
+      <li><a class="active" href="index.php">Home</a></li>
+      <li><a href="#news">Plan & Book</a></li>
+      <li><a href="t_info.php">Travel Information</a></li>
+      <li><a href="#contact">Services</a></li>
+      <li><a href="#contact">contact</a></li>
+      <li style="float: right;"><a href="login.php">Login</a></li>
+      <a href="login.php"><i class="fa-regular fa-user" style="color: #898b90;"></a></i>
+      
+  </ul>
+   
+<br>
+<br>
+    <!--Contact us Details-Left-Side-->
+  <div class="Background-Contact">
+    <div class="Contact-detail">
+    
+    <h3><center>24 Hour Contact Center (Colombo)</center></h3>
+      <ul class="Contact-Content"> 
+        <li>Telephone :</li>
+          <ul>+94117771979</ul><br>
+        <li>Email Us:</li>
+          <ul>reservations@srilanka.com</ul><br>
+        <li>Fax:</li>
+          <ul> +94197333999</ul>
+      </ul>
+  
+      <div class="social-btn">
+        <img src="images/fblg.png">
+        <img src="images/twlg.png">
+        <img src="images/gglg.png">
+      </div>	
+    </div>
+  </div>
+  
+         
+         
+  
+        <!----------------------------Contact-Us Form-Start---------------------------->
+  <div class="Contact-detail2" id="ContactUs" >	
+      
+      <fieldset><legend > <font size="5px">Contact Us</font> </legend>
+           <form action="php/contactus.php"  method="post" >
+            <div class=""><label>Your Country</label>
+            <select name="Country" required="">
+              <option selected disabled>Select Country</option>
+              <option>Sri Lanka</option>
+              <option>Japan</option>
+              <option>Singapore</option>
+              <option>USA</option>
+              <option>New Zealand</option>
+              <option>Australia</option>
+            </select>
+            </div>
+            <br>
+          <div class=""><label >Your Name : </label>
+            <input type="text"  name="Name" placeholder="Your name.." required="">
+          </div> 
+          <br>
+           
+          <div class=""><label>Your Email : </label> </div>
+          <input type="email"  name="Email" placeholder="Your Email.." required="">
+        <br><br>
+        <div class=""><label >Your Contact NO : </label>
+          <input type="text"  name="Telephone" placeholder="Your Number" required="">
+        </div> 
+        <br>
+  
+          <div class=""><label >Your Massege : </label><br></div>
+           <textarea  name="Description" placeholder="Write something.." style="height:80px" "width:560px"></textarea>
+  
+       </fieldset>
+  
+           <input class="submit" type="submit"  name="Submit">
+          
+          </form>
+  
+  </div>
+  <br><br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+       <!-------------------------------Contact-Us Form End---------------------------------->
+  
+  
+  <!-----Java Script for Transition of form-Start------->
+  <script>
+    
+    var x = document.getElementById("ContactUs");
+   
+    
+  
+      function ContactUs(){
+        
+      x.style.visibility= "visible";
+      y.style.visibility= "hidden";
+    
+    }
+  
+  
+
+  
+  </script>
+  <!-----Java Script for Transition of form-End------->
+  
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br
+  
+  
+  <!--Page Content End-->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="#">Destinations</a></li>
+          <li><a href="#">Flight Deals</a></li>
+          <li><a href="#">Travel Guides</a></li>
+          <li><a href="#">Airlines</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Information</h3>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Help & Support</h3>
+        <ul>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Customer Support</a></li>
+          <li><a href="#">Refund Policy</a></li>
+          <li><a href="#">Baggage Information</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Connect With Us</h3>
+        <ul class="social-media">
+          <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  </body>
+</html>
